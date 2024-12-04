@@ -37,3 +37,4 @@ const userFind = users.find((user) => {
   return user.first_name === "nguyen";
 });
 console.log({ userFilter, userFind });
+console.log("thanh hahah");
