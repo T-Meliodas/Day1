@@ -7,6 +7,8 @@ console.log(noi.slice(0)); //cắt tất cả các phần tử trong array(từ 
 
 noi.splice(0, 1, "first"); //từ vị trí 0, cắt 1 phần tử và thay vào đó là "first"
 console.log(noi);
+
+
 const users = [
   {
     id: 1,
@@ -24,7 +26,7 @@ const users = [
     last_name: "kin",
   },
 ];
-users.filter((userid) => {
+users.filter((userid) => {  //in ra cái first_name thôi
   console.log(userid.first_name);
 });
 const userFilter = users.filter((user) => {
